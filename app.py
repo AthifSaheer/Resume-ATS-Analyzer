@@ -19,7 +19,7 @@ custom_prompt = st.text_area(
     placeholder="Add your custom prompt here..."
 )
 
-if st.button("Submit") and uploaded_file and jd:
+if st.button("Submit") and uploaded_file:
     with st.spinner("Extracting text..."):
         text = extract_text_from_pdf(uploaded_file)
     

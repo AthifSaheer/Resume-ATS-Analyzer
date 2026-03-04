@@ -31,6 +31,7 @@ prompt = PromptTemplate(
         2. Weaknesses of the resume compared to the JD
         3. Specific suggestions to improve the ATS score for THIS job
         4. Unnecessary design or formatting elements that may hurt ATS parsing
+        5. Fetch the exact text from the resume that is weak or misaligned with the JD, and suggest specific replacement text that would improve the ATS score
 
         JOB DESCRIPTION:
         {job_description}
